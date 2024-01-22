@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+
+    <script>
+      /* ISTO É UM COMENTARIO */
+
+      document.write("Libbs 2024" + "<br>");
+
+      var nome = "Rebeca";
+      var endereco = "Rua Tamboara";
+      var telefone = "11 957085460";
+      const anoNascimento = 2005;
+      var studing;
+
+      nome = prompt(" Qual o seu nome?");
+
+      studing = confirm("Está estudando no momento?");
+      console.log("Estou aqui...");
+
+      if (studing) {
+        alert("Parabéns!!!");
+      } else {
+        alert("Vamos estudar...");
+      }
+
+      document.write(nome + "<br>");
+      document.write(endereco + "<br>");
+      document.write(telefone + "<br>");
+      document.write(anoNascimento + "<br>");
+
+      console.log(anoNascimento);
+
+      alert("Você chegou aqui...");
+
+      var idade;
+      idade = prompt("Qual sua idade?");
+      if(idade >=50) {
+        alert("Nada de neto ainda?"); 
+     }else if(idade >=25) {
+        alert("Ja nao precisa morar com o papai");
+     }else if(idade >=18) {
+        alert("Parabens, hora de tirar a carta");
+     }else if(idade >=12) {
+        alert("Ainda brinca")
+     }else {
+        alert("Idade Invalida")
+     }
     
-</body>
+
+    </script>
+  </head>
+  <body>
+    <p>Escrito pelo HTML</p>
+  </body>
 </html>
